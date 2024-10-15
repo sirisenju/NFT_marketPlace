@@ -5,10 +5,10 @@ import NavBar from "./components/navbar";
 function App() {
 
   const teamAlpha = [
-    {id: 1, imgUrl: "./assets/peter-removebg-preview.png", title: "Firstname Lastname", discription: "Fullstack"},
-    {id: 2, imgUrl: "./assets/peter-removebg-preview.png", title: "Firstname Lastname", discription: "Fullstack"},
-    {id: 3, imgUrl: "./assets/peter-removebg-preview.png", title: "Firstname Lastname", discription: "Fullstack"},
-    {id: 4, imgUrl: "./assets/peter-removebg-preview.png", title: "Firstname Lastname", discription: "Fullstack"}
+    {id: 1, imgUrl: "./assets/peter-removebg-preview.png", title: "Peter Onoghese", discription: "Designer"},
+    {id: 2, imgUrl: "./assets/fairboy.png", title: "Israal Omoruyi", discription: "Web Developer"},
+    {id: 3, imgUrl: "./assets/austine-wbg.png", title: "Austine Ekeh", discription: "Web/Blockchain Developer"},
+    {id: 4, imgUrl: "./assets/siri.png", title: "Amrohore Emuesiri", discription: "Fullstack/Blockchain Developer"}
   ];
   return (
     <>
@@ -37,7 +37,6 @@ function App() {
         </div>
       </section>
 
-
       <section className="gradient-bg">
         <div className="w-[80%] mx-auto">
           <h1 className="text-center text-4xl font-semibold pt-3 text-white">Meet Team Alpha</h1>
@@ -48,9 +47,9 @@ function App() {
             <div className="h-[270px] w-[270px] bg-white rounded-full object-cover shadow-lg mt-14"> 
             <img className="w-full h-full object-center rounded-full" src={index.imgUrl} alt="" />
             </div>
-            <div className="bg-blue-500 text-center mt-2">
-              <h2>{index.title}</h2>
-              <p>{index.discription}</p>
+            <div className="text-center mt-2">
+              <h2 className="text-lg pt-2 pb-1 text-white">{index.title}</h2>
+              <p className="text-base text-white">{index.discription}</p>
             </div>
           </div>)}
           </div>
