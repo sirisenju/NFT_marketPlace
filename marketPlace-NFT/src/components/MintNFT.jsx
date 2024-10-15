@@ -312,7 +312,7 @@ function MintNFT() {
           : "Connect Wallet"}
       </button>
 
-      <div className="flex pb-10 glass">
+      <div className="grid grid-cols-1 justify-items-center md:flex gap-4 pb-10 glass">
       <div className="p-4 w-[50%]">
       <div className="">
         <h2 className="text-white pb-2">Mint Your NFT: </h2>

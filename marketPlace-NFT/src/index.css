@@ -18,6 +18,17 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 1024px) {
+  .hero-bg {
+    background-image:url("assets/Bg-imageR.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
 .gradient-bg{
   background: rgb(14,155,239);
   background: linear-gradient(90deg, rgba(14,155,239,1) 13%, rgba(152,66,238,1) 44%, rgba(160,38,208,0.9781162464985994) 91%);
